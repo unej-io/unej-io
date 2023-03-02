@@ -1,16 +1,14 @@
-import {} from "react";
-
 import type { NextPageWithLayout } from "next";
 
-import { Button, Container, createStyles, Group, Text, Title } from "@mantine/core";
+import { Container, createStyles, Text, Title } from "@mantine/core";
 
 import { Head } from "~/components/core";
 
 const useStyles = createStyles((theme) => ({
   root: {
     position: "relative",
-    paddingTop: 80,
-    paddingBottom: 80,
+    paddingTop: 32,
+    paddingBottom: 32,
   },
 
   background: {
@@ -21,7 +19,7 @@ const useStyles = createStyles((theme) => ({
     zIndex: 0,
     display: "flex",
     justifyContent: "center",
-    paddingTop: 55,
+    paddingTop: 16,
     opacity: 0.75,
     overflow: "hidden",
   },
@@ -29,6 +27,7 @@ const useStyles = createStyles((theme) => ({
   ["404"]: {
     color: theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[1],
     fontSize: `calc(${theme.fontSizes.xl} * 24)`,
+    fontWeight: 900,
 
     [theme.fn.smallerThan("sm")]: {
       fontSize: `calc(${theme.fontSizes.xl} * 12)`,
@@ -47,19 +46,12 @@ const useStyles = createStyles((theme) => ({
 
   title: {
     textAlign: "center",
+    fontSize: `calc(${theme.fontSizes.xl} * 2)`,
     fontWeight: 900,
-    fontSize: 38,
 
     [theme.fn.smallerThan("sm")]: {
-      fontSize: 32,
+      fontSize: `calc(${theme.fontSizes.xl} * 1)`,
     },
-  },
-
-  description: {
-    maxWidth: 540,
-    margin: "auto",
-    marginTop: theme.spacing.xl,
-    marginBottom: `calc(${theme.spacing.xl} * 1.5)`,
   },
 }));
 
@@ -72,21 +64,10 @@ const NotFoundPage: NextPageWithLayout = () => {
 
       <Container className={classes.root}>
         <div className={classes.background}>
-          <Text weight={700} className={classes[404]}>
-            404
-          </Text>
+          <Text className={classes[404]}>404</Text>
         </div>
         <div className={classes.foreground}>
-          <Title className={classes.title}>Nothing to see here</Title>
-          <Text color="dimmed" size="lg" align="center" className={classes.description}>
-            Page you are trying to open does not exist. You may have mistyped the address, or the page has been moved to another URL. If you
-            think this is an error contact support.
-          </Text>
-          <Group position="center">
-            <Button component="a" href="/" size="md">
-              Take me back to home page
-            </Button>
-          </Group>
+          <Title className={classes.title}>Sorry, we couldn't find that page.</Title>
         </div>
       </Container>
     </>

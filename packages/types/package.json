@@ -1,0 +1,25 @@
+{
+  "name": "@unej-io/types",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./firebase-admin": {
+      "import": "./firebase-admin.ts",
+      "types": "./firebase-admin.ts"
+    },
+    "./firebase": {
+      "import": "./firebase.ts",
+      "types": "./firebase.ts"
+    }
+  },
+  "devDependencies": {
+    "firebase": "^9.17.1",
+    "firebase-admin": "^11.5.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "@unej-io/app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-analyze": "set ANALYZE=true&& tsc && vite build",
+    "build-unminify": "set UNMINIFY=true&& tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/core": "6.0.0-alpha.7",
+    "@mantine/dates": "6.0.0-alpha.7",
+    "@mantine/dropzone": "6.0.0-alpha.7",
+    "@mantine/form": "6.0.0-alpha.7",
+    "@mantine/hooks": "6.0.0-alpha.7",
+    "@mantine/modals": "6.0.0-alpha.7",
+    "@mantine/notifications": "6.0.0-alpha.7",
+    "@mantine/spotlight": "6.0.0-alpha.7",
+    "@mantine/tiptap": "6.0.0-alpha.7",
+    "@tabler/icons-react": "^2.3.0",
+    "@tiptap/extension-link": "2.0.0-beta.217",
+    "@tiptap/react": "2.0.0-beta.217",
+    "@tiptap/starter-kit": "2.0.0-beta.217",
+    "@unej-io/types": "workspace:*",
+    "@unej-io/ui": "workspace:*",
+    "broadcast-channel": "^4.20.2",
+    "chartist": "^1.3.0",
+    "dayjs": "^1.11.7",
+    "firebase": "^9.17.1",
+    "nanoid": "^4.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.3.0",
+    "react-router-yesterday": "^1.2.0",
+    "react-yesterday": "^1.2.0",
+    "swr": "^2.0.3",
+    "zod": "^3.20.6",
+    "zustand": "^4.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  }
+}

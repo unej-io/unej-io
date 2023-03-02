@@ -13,6 +13,10 @@
       "import": "./core/index.tsx",
       "types": "./core/index.tsx"
     },
+    "./css": {
+      "import": "./css/index.css",
+      "types": "./css/index.css"
+    },
     "./next": {
       "import": "./next/index.tsx",
       "types": "./next/index.tsx"

@@ -87,10 +87,10 @@ const overrides: MantineThemeOverride = {
   fontSizes,
   radius,
   spacing,
-  fontFamily: "Nunito, sans-serif",
+  fontFamily: "Nunito, sans",
   fontFamilyMonospace: "monospace",
   headings: {
-    fontFamily: "Open Sans, sans-serif",
+    fontFamily: "Plus Jakarta Sans, sans-serif",
   },
   cursorType: "pointer",
   activeStyles: {

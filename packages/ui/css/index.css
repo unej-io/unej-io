@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Nunito;
+  src: url(./Nunito.woff) format("woff-variations");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(./Nunito-Italic.woff) format("woff-variations");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url(./PlusJakartaSans.woff) format("woff-variations");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url(./PlusJakartaSans-Italic.woff) format("woff-variations");
+  font-style: italic;
+}
+
+.icon-tabler {
+  stroke-width: 1.5px;
+}

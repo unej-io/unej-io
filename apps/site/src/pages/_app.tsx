@@ -16,8 +16,7 @@ import { AuthProvider, Head, RootProvider, ThemeProvider } from "~/components/co
 
 import { getColorSchemeCookie, getPrimaryColorCookie, getDefaultRadiusCookie } from "~/stores/theme";
 
-import "~/assets/css/style.css";
-// import "~/assets/fonts/index.css";
+import "@unej-io/ui/css";
 
 if (process.env.NODE_ENV === "production") typeof window !== "undefined" && disableDevtools();
 
@@ -28,16 +27,16 @@ const AppHead = memo(() => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={`${APP.link.self}/`} />
+      <meta property="og:url" content={APP.link.self} />
       <meta property="og:title" content={APP.description} />
       <meta property="og:description" content={APP.description} />
-      <meta property="og:image" content={`${APP.link.self}/Cover.png`} />
+      <meta property="og:image" content={`${APP.link.self}/cover.png`} />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content={`${APP.link.self}/`} />
+      <meta property="twitter:url" content={APP.link.self} />
       <meta property="twitter:title" content={APP.description} />
       <meta property="twitter:description" content={APP.description} />
-      <meta property="twitter:image" content={`${APP.link.self}/Cover.png`} />
+      <meta property="twitter:image" content={`${APP.link.self}/cover.png`} />
     </Head>
   );
 });

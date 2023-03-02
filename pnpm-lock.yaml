@@ -21,9 +21,9 @@ importers:
       '@mantine/spotlight': 6.0.0-alpha.7
       '@mantine/tiptap': 6.0.0-alpha.7
       '@tabler/icons-react': ^2.3.0
-      '@tiptap/extension-link': 2.0.0-beta.217
-      '@tiptap/react': 2.0.0-beta.217
-      '@tiptap/starter-kit': 2.0.0-beta.217
+      '@tiptap/extension-link': 2.0.0-beta.220
+      '@tiptap/react': 2.0.0-beta.220
+      '@tiptap/starter-kit': 2.0.0-beta.220
       '@types/node': ^18.14.0
       '@types/react': ^18.0.27
       '@types/react-dom': ^18.0.10
@@ -55,11 +55,11 @@ importers:
       '@mantine/modals': 6.0.0-alpha.7_ic5a7fg76qgd65abi62aaslgxa
       '@mantine/notifications': 6.0.0-alpha.7_ic5a7fg76qgd65abi62aaslgxa
       '@mantine/spotlight': 6.0.0-alpha.7_ic5a7fg76qgd65abi62aaslgxa
-      '@mantine/tiptap': 6.0.0-alpha.7_t7hfswxzrfllqf5gubenj5vkee
+      '@mantine/tiptap': 6.0.0-alpha.7_wkrdreoyw4b27hop3ipmpqgi4u
       '@tabler/icons-react': 2.7.0_react@18.2.0
-      '@tiptap/extension-link': 2.0.0-beta.217
-      '@tiptap/react': 2.0.0-beta.217_biqbaboplfbrettd7655fr4n2y
-      '@tiptap/starter-kit': 2.0.0-beta.217
+      '@tiptap/extension-link': 2.0.0-beta.220
+      '@tiptap/react': 2.0.0-beta.220_biqbaboplfbrettd7655fr4n2y
+      '@tiptap/starter-kit': 2.0.0-beta.220
       '@unej-io/types': link:../../packages/types
       '@unej-io/ui': link:../../packages/ui
       broadcast-channel: 4.20.2
@@ -98,9 +98,9 @@ importers:
       '@mantine/spotlight': 6.0.0-alpha.7
       '@mantine/tiptap': 6.0.0-alpha.7
       '@tabler/icons-react': ^2.3.0
-      '@tiptap/extension-link': 2.0.0-beta.217
-      '@tiptap/react': 2.0.0-beta.217
-      '@tiptap/starter-kit': 2.0.0-beta.217
+      '@tiptap/extension-link': 2.0.0-beta.220
+      '@tiptap/react': 2.0.0-beta.220
+      '@tiptap/starter-kit': 2.0.0-beta.220
       '@types/cors': ^2.8.13
       '@types/node': ^18.14.0
       '@types/react': ^18.0.27
@@ -137,11 +137,11 @@ importers:
       '@mantine/next': 6.0.0-alpha.7_a7hn2ezcj5vhoyhoix22hbrmtq
       '@mantine/notifications': 6.0.0-alpha.7_ic5a7fg76qgd65abi62aaslgxa
       '@mantine/spotlight': 6.0.0-alpha.7_ic5a7fg76qgd65abi62aaslgxa
-      '@mantine/tiptap': 6.0.0-alpha.7_t7hfswxzrfllqf5gubenj5vkee
+      '@mantine/tiptap': 6.0.0-alpha.7_wkrdreoyw4b27hop3ipmpqgi4u
       '@tabler/icons-react': 2.7.0_react@18.2.0
-      '@tiptap/extension-link': 2.0.0-beta.217
-      '@tiptap/react': 2.0.0-beta.217_biqbaboplfbrettd7655fr4n2y
-      '@tiptap/starter-kit': 2.0.0-beta.217
+      '@tiptap/extension-link': 2.0.0-beta.220
+      '@tiptap/react': 2.0.0-beta.220_biqbaboplfbrettd7655fr4n2y
+      '@tiptap/starter-kit': 2.0.0-beta.220
       '@unej-io/types': link:../../packages/types
       '@unej-io/ui': link:../../packages/ui
       broadcast-channel: 4.20.2
@@ -190,9 +190,9 @@ importers:
       '@mantine/spotlight': 6.0.0-alpha.7
       '@mantine/tiptap': 6.0.0-alpha.7
       '@tabler/icons-react': ^2.3.0
-      '@tiptap/extension-link': 2.0.0-beta.217
-      '@tiptap/react': 2.0.0-beta.217
-      '@tiptap/starter-kit': 2.0.0-beta.217
+      '@tiptap/extension-link': 2.0.0-beta.220
+      '@tiptap/react': 2.0.0-beta.220
+      '@tiptap/starter-kit': 2.0.0-beta.220
       '@types/react': ^18.0.27
       '@types/react-dom': ^18.0.10
       chartist: ^1.3.0
@@ -212,11 +212,11 @@ importers:
       '@mantine/next': 6.0.0-alpha.7_a4qp3tupetct2kq75c47jjvxfy
       '@mantine/notifications': 6.0.0-alpha.7_ic5a7fg76qgd65abi62aaslgxa
       '@mantine/spotlight': 6.0.0-alpha.7_ic5a7fg76qgd65abi62aaslgxa
-      '@mantine/tiptap': 6.0.0-alpha.7_t7hfswxzrfllqf5gubenj5vkee
+      '@mantine/tiptap': 6.0.0-alpha.7_wkrdreoyw4b27hop3ipmpqgi4u
       '@tabler/icons-react': 2.7.0_react@18.2.0
-      '@tiptap/extension-link': 2.0.0-beta.217
-      '@tiptap/react': 2.0.0-beta.217_biqbaboplfbrettd7655fr4n2y
-      '@tiptap/starter-kit': 2.0.0-beta.217
+      '@tiptap/extension-link': 2.0.0-beta.220
+      '@tiptap/react': 2.0.0-beta.220_biqbaboplfbrettd7655fr4n2y
+      '@tiptap/starter-kit': 2.0.0-beta.220
       chartist: 1.3.0
       dayjs: 1.11.7
       next: 13.2.3_biqbaboplfbrettd7655fr4n2y
@@ -1557,7 +1557,7 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@mantine/tiptap/6.0.0-alpha.7_t7hfswxzrfllqf5gubenj5vkee:
+  /@mantine/tiptap/6.0.0-alpha.7_wkrdreoyw4b27hop3ipmpqgi4u:
     resolution: {integrity: sha512-CrrrNqx2yt1x81tpj4DDBeWAqKDKUtSQopU8Y14vh9zwEwulmdDsBmTKP3VzCRks0T1wS5YpYti7T/RalQeH3A==}
     peerDependencies:
       '@mantine/core': 6.0.0-alpha.7
@@ -1571,8 +1571,8 @@ packages:
       '@mantine/hooks': 6.0.0-alpha.7_react@18.2.0
       '@mantine/utils': 6.0.0-alpha.7_react@18.2.0
       '@tabler/icons-react': 2.7.0_react@18.2.0
-      '@tiptap/extension-link': 2.0.0-beta.217
-      '@tiptap/react': 2.0.0-beta.217_biqbaboplfbrettd7655fr4n2y
+      '@tiptap/extension-link': 2.0.0-beta.220
+      '@tiptap/react': 2.0.0-beta.220_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
     dev: false
 
@@ -2135,13 +2135,13 @@ packages:
       '@tiptap/core': 2.0.0-beta.220
     dev: false
 
-  /@tiptap/extension-link/2.0.0-beta.217:
-    resolution: {integrity: sha512-pC1UnK1OrbW+NDdBdHE8sfmZ+tOpIOsHVAeeX6pg1fkdP/FlbPFFvcvILgJc20dr7DiM6dRqYq16H473G9vyEg==}
+  /@tiptap/extension-link/2.0.0-beta.220:
+    resolution: {integrity: sha512-vjEA8cE37ZZVVgPHSpttw3kbJoClb+ya/BVukDtJ1h6C7mIR1rqzNxTgpbnXJuA8xww0JOjpa5dpzEgcs294fA==}
     peerDependencies:
       '@tiptap/core': ^2.0.0-beta.209
       '@tiptap/pm': ^2.0.0-beta.209
     dependencies:
-      linkifyjs: 3.0.5
+      linkifyjs: 4.1.0
     dev: false
 
   /@tiptap/extension-list-item/2.0.0-beta.220_7w7m52asdh3tod4ocz57yex63q:
@@ -2184,8 +2184,8 @@ packages:
       '@tiptap/core': 2.0.0-beta.220
     dev: false
 
-  /@tiptap/react/2.0.0-beta.217_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-aNyvte3fuY97SFilldaz36g2D36D86UZSb/jjxTEAhYc6F4pY8O/4sh20fw6zvoeKAW4DTH/r8v0BRc18+Vm3g==}
+  /@tiptap/react/2.0.0-beta.220_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-AZWaCGjm2FcJWNl1dxRCHOjGYvUV8R39L7tAcnKxHGajOHdFk8JQHc0XbVZhdBi2YgwvwEr7Tw9G2lzi9e6/fg==}
     peerDependencies:
       '@tiptap/core': ^2.0.0-beta.209
       '@tiptap/pm': ^2.0.0-beta.209
@@ -2198,8 +2198,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@tiptap/starter-kit/2.0.0-beta.217:
-    resolution: {integrity: sha512-9FPH8lOP0AfRMKm2OUy2OQKEdcIo2ic7MNO2Jtd5vcUz1skfaQPjYLJYHbhkw2iH0ILUOPPbGpZuIlV8uqSu/g==}
+  /@tiptap/starter-kit/2.0.0-beta.220:
+    resolution: {integrity: sha512-3992NxY5sEp5xmLE/qv/yt1YkgpSpJiUlDRj02isJ0Xsxa4G6bNq+N+tN2rHB0Y8dtYVBSX2vV/DZYVX8O+Gpg==}
     dependencies:
       '@tiptap/core': 2.0.0-beta.220
       '@tiptap/extension-blockquote': 2.0.0-beta.220_7w7m52asdh3tod4ocz57yex63q
@@ -3419,8 +3419,8 @@ packages:
       uc.micro: 1.0.6
     optional: true
 
-  /linkifyjs/3.0.5:
-    resolution: {integrity: sha512-1Y9XQH65eQKA9p2xtk+zxvnTeQBG7rdAXSkUG97DmuI/Xhji9uaUzaWxRj6rf9YC0v8KKHkxav7tnLX82Sz5Fg==}
+  /linkifyjs/4.1.0:
+    resolution: {integrity: sha512-Ffv8VoY3+ixI1b3aZ3O+jM6x17cOsgwfB1Wq7pkytbo1WlyRp6ZO0YDMqiWT/gQPY/CmtiGuKfzDIVqxh1aCTA==}
     dev: false
 
   /lodash.camelcase/4.3.0:
